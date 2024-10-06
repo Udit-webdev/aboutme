@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udit Tiwari - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Importing Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #000000, #434343);
+      color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px;
+      background: linear-gradient(135deg, #000000, #434343);
+      border-radius: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header img {
+      width: 150px; /* Adjust the size of the image */
+      height: auto;
+      border-radius: 50%; /* Circular image */
+      margin-bottom: 20px; /* Space between image and text */
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffb703;
+    }
+
+    section {
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    h2 {
+      color: #ffb703;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills ul li {
+      margin-bottom: 10px;
+      background-color: #333;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .skills ul li:hover {
+      background-color: #ffb703;
+      color: #000;
+    }
+
+    .projects ul, .interests ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .projects ul li, .interests ul li {
+      margin-bottom: 10px;
+      background-color: #2e2e2e;
+      padding: 15px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .projects ul li:hover, .interests ul li:hover {
+      background-color: #ffb703;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: linear-gradient(135deg, #000000, #434343);
+      border-radius: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .social-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: #ffb703;
+    }
+
+    /* New CSS for Orange Bold Text */
+    .orange-bold {
+      color: orange; /* Change the color to orange */
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="udit_profile.jpg" alt="Udit Tiwari"> <!-- Ensure the image name matches the uploaded file -->
+    <h1>Udit Tiwari</h1>
+    <p>Aspiring Software Developer | Lifelong Learner</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects & Goals</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Udit Tiwari, a 1st-year B.Tech student in Computer Science and Engineering. I may not have the strongest academic background, but my passion for learning and improving myself is unshakeable. 
+      I'm currently focused on enhancing my software development skills, and though I’m still getting comfortable with the basics, I’m confident in my ability to grow and achieve great things in the future.
+      With the help of my seniors and relentless self-learning, I strive to overcome challenges and become a successful developer.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Basic Programming (C, Python)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects & Goals</h2>
+    <ul>
+      <li>
+        <strong class="orange-bold">Future Goal:</strong> To build full-stack web applications.
+      </li>
+      <li>
+        <strong class="orange-bold">Future Goal:</strong> Learn AI and explore machine learning models.
+      </li>
+      <li>
+        <strong class="orange-bold">Future Goal:</strong> Work at an MNC specializing in cutting-edge technologies.
+      </li>
+    </ul>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <ul>
+      <li>Cricket: I love playing and following cricket matches.</li>
+      <li>Chess: I enjoy strategic thinking through chess games.</li>
+      <li>Photography: Capturing moments through photography is a hobby I deeply enjoy.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to connect with me!</p>
+    <p><a href="tel:7652004903" style="color: #ffb703; text-decoration: underline;">Phone: 7652004903</a></p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/___udit___tiwari__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.snapchat.com/add/udittiwari28665?share_id=OXOOobAribs&locale=en-US" target="_blank">
+        <i class="fab fa-snapchat-ghost"></i> Snapchat
+      </a>
+      <a href="https://github.com/Udit-webdev" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Udit Tiwari. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
